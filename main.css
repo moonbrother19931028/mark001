@@ -1,0 +1,100 @@
+body{
+    width:1000px;
+    margin:0 auto;
+    background:#faebd7;
+}
+.subtitle{
+    margin-top:20px;
+    margin-bottom:0;
+}
+.title{
+    margin:0;
+}
+nav,main,aside{
+    flex-direction:column;
+}
+nav{
+    width:200px;
+}
+.main{
+    display:flex;
+}
+.main figure{
+    margin:0;
+}
+main{
+    width:600px;
+}
+main img{
+    width:500px;
+    margin-top:50px
+    
+}
+nav ul{
+    margin-left:-40px;
+    list-style:none;;
+    margin-top:50px;
+}
+aside{
+    margin-left:10px;
+    width:200px;
+    font-weight:bold;
+}
+aside p{
+    font-size:15px;
+}
+aside .kawaguchiGougaiNet{
+    display:inline-block;
+    padding:0.5em 1em;
+    background:#ff0f0fe7;
+    color:#fff;
+    border-bottom:solid 4px #0000004d;
+    border-radius:3px;
+}
+aside .kawaguchiGougaiNet:active{
+    transform:translateY(4px);
+    border-bottom:none;
+}
+footer{
+    height:100px;
+}
+
+/* index.htmlのレイアウト */
+
+.main main .news ul{
+    list-style-type: none;
+    padding-left:0;
+}
+.main main .news ul li{
+    border-bottom:1px dotted #000;
+    
+}
+.main main .news ul li strong{
+    color:rgba(252, 17, 17, 0.849);
+}
+/* about.htmlのレイアウト */
+main h1{
+    text-align:center;
+}
+main .item1 figure{
+    display:flex;
+}
+main .item1 figure img{
+    width:150px;
+    display:inline-block;
+}
+main .item1 figure figcaption{
+    flex-direction:column;
+}
+main .item2 figure{
+    display:flex;
+}
+main .item2 figure figcaption{
+    flex-direction:column;
+}
+main .item2 figure img{
+    width:150px;
+    display:block;
+    order:1;
+
+}
